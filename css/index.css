@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "josefin sans";
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section .formbx {
+  background: linear-gradient(95deg, #233446, #333a3f);
+  padding: 50px 150px;
+  border-radius: 20px;
+}
+
+section .formbx .head {
+  text-align: center;
+  font-size: 30pt;
+  text-transform: capitalize;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+section .formbx form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .formbx form input {
+  width: 100%;
+  display: block;
+  background: none;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-bottom: 3px solid rgba(63, 86, 107, 0.603);
+  color: #fff;
+  font-size: 16pt;
+}
+
+section .formbx form input::-webkit-input-placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form input:-ms-input-placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form input::-ms-input-placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form input::placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form textarea {
+  resize: none;
+  height: 100px;
+  width: 100%;
+  display: block;
+  background: none;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-bottom: 3px solid rgba(63, 86, 107, 0.603);
+  color: #fff;
+  font-size: 16pt;
+}
+
+section .formbx form textarea::-webkit-input-placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form textarea:-ms-input-placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form textarea::-ms-input-placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form textarea::placeholder {
+  font-size: 16pt;
+  color: #666;
+  text-transform: capitalize;
+}
+
+section .formbx form input[type="submit"] {
+  background: rgba(68, 93, 124, 0.61);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #a09d9d;
+  font-size: 20pt;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+/*# sourceMappingURL=index.css.map */
